@@ -20,4 +20,4 @@ for num in numbers:
         not_primes.append(num)
 
 print("Простые числа:", primes)
-print("Непростые числа:", not_primes)
+print("Непростые числа:", not_primes[1:])
